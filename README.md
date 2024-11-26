@@ -1,6 +1,7 @@
 # Provider Visits
 
-This is a Spark project used to generate reports that deliver data about providers.
+The code is in ProviderRoster.scala 
+The output folder has the requested outputs 
 
 ## Requirements
 * Language: Scala
