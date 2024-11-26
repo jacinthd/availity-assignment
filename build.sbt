@@ -25,8 +25,8 @@ assembly / assemblyMergeStrategy := {
   val sparkVersion = "3.1.1"
 
   libraryDependencies ++= Seq(
-      "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
-      "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
+      "org.apache.spark" %% "spark-core" % sparkVersion,
+      "org.apache.spark" %% "spark-sql" % sparkVersion,
       "com.github.mrpowers" %% "spark-daria" % "1.0.0",
       "com.github.mrpowers" %% "spark-fast-tests" % "1.0.0" % Test,
       "org.scalatest" %% "scalatest" % "3.2.9" % Test)

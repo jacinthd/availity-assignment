@@ -8,6 +8,8 @@
 .vscode
 metals.sbt
 
+.idea
+
 # Scala build support
 .bsp/
 
